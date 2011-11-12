@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C21C8B1146E91D500CD18E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C21C8B0146E91D500CD18E0 /* UIKit.framework */; };
+		3C21C8B3146E91D500CD18E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C21C8B2146E91D500CD18E0 /* Foundation.framework */; };
+		3C21C8B5146E91D500CD18E0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C21C8B4146E91D500CD18E0 /* CoreGraphics.framework */; };
+		3C21C8BB146E91D500CD18E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C21C8B9146E91D500CD18E0 /* InfoPlist.strings */; };
+		3C21C8BD146E91D500CD18E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C21C8BC146E91D500CD18E0 /* main.m */; };
+		3C21C8C1146E91D500CD18E0 /* BDCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C21C8C0146E91D500CD18E0 /* BDCAppDelegate.m */; };
+		3C21C8C4146E91D500CD18E0 /* BDCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C21C8C3146E91D500CD18E0 /* BDCViewController.m */; };
+		3C21C8C7146E91D500CD18E0 /* BDCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C21C8C5146E91D500CD18E0 /* BDCViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C21C8AC146E91D500CD18E0 /* BDCGraphicsAndAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BDCGraphicsAndAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C21C8B0146E91D500CD18E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C21C8B2146E91D500CD18E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C21C8B4146E91D500CD18E0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C21C8B8146E91D500CD18E0 /* BDCGraphicsAndAnimations-Info.plist */ = {isa = PBXFileReference; path = "BDCGraphicsAndAnimations-Info.plist"; sourceTree = "<group>"; };
+		3C21C8BA146E91D500CD18E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C21C8BC146E91D500CD18E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C21C8BE146E91D500CD18E0 /* BDCGraphicsAndAnimations-Prefix.pch */ = {isa = PBXFileReference; path = "BDCGraphicsAndAnimations-Prefix.pch"; sourceTree = "<group>"; };
+		3C21C8BF146E91D500CD18E0 /* BDCAppDelegate.h */ = {isa = PBXFileReference; path = BDCAppDelegate.h; sourceTree = "<group>"; };
+		3C21C8C0146E91D500CD18E0 /* BDCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDCAppDelegate.m; sourceTree = "<group>"; };
+		3C21C8C2146E91D500CD18E0 /* BDCViewController.h */ = {isa = PBXFileReference; path = BDCViewController.h; sourceTree = "<group>"; };
+		3C21C8C3146E91D500CD18E0 /* BDCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDCViewController.m; sourceTree = "<group>"; };
+		3C21C8C6146E91D500CD18E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BDCViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C21C8A9146E91D500CD18E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C21C8B1146E91D500CD18E0 /* UIKit.framework in Frameworks */,
+				3C21C8B3146E91D500CD18E0 /* Foundation.framework in Frameworks */,
+				3C21C8B5146E91D500CD18E0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C21C8A1146E91D500CD18E0 = {
+			isa = PBXGroup;
+			children = (
+				3C21C8B6146E91D500CD18E0 /* BDCGraphicsAndAnimations */,
+				3C21C8AF146E91D500CD18E0 /* Frameworks */,
+				3C21C8AD146E91D500CD18E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C21C8AD146E91D500CD18E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C21C8AC146E91D500CD18E0 /* BDCGraphicsAndAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C21C8AF146E91D500CD18E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C21C8B0146E91D500CD18E0 /* UIKit.framework */,
+				3C21C8B2146E91D500CD18E0 /* Foundation.framework */,
+				3C21C8B4146E91D500CD18E0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C21C8B6146E91D500CD18E0 /* BDCGraphicsAndAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3C21C8BF146E91D500CD18E0 /* BDCAppDelegate.h */,
+				3C21C8C0146E91D500CD18E0 /* BDCAppDelegate.m */,
+				3C21C8C2146E91D500CD18E0 /* BDCViewController.h */,
+				3C21C8C3146E91D500CD18E0 /* BDCViewController.m */,
+				3C21C8C5146E91D500CD18E0 /* BDCViewController.xib */,
+				3C21C8B7146E91D500CD18E0 /* Supporting Files */,
+			);
+			path = BDCGraphicsAndAnimations;
+			sourceTree = "<group>";
+		};
+		3C21C8B7146E91D500CD18E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C21C8B8146E91D500CD18E0 /* BDCGraphicsAndAnimations-Info.plist */,
+				3C21C8B9146E91D500CD18E0 /* InfoPlist.strings */,
+				3C21C8BC146E91D500CD18E0 /* main.m */,
+				3C21C8BE146E91D500CD18E0 /* BDCGraphicsAndAnimations-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C21C8AB146E91D500CD18E0 /* BDCGraphicsAndAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C21C8CA146E91D500CD18E0 /* Build configuration list for PBXNativeTarget "BDCGraphicsAndAnimations" */;
+			buildPhases = (
+				3C21C8A8146E91D500CD18E0 /* Sources */,
+				3C21C8A9146E91D500CD18E0 /* Frameworks */,
+				3C21C8AA146E91D500CD18E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BDCGraphicsAndAnimations;
+			productName = BDCGraphicsAndAnimations;
+			productReference = 3C21C8AC146E91D500CD18E0 /* BDCGraphicsAndAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C21C8A3146E91D500CD18E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3C21C8A6146E91D500CD18E0 /* Build configuration list for PBXProject "BDCGraphicsAndAnimations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C21C8A1146E91D500CD18E0;
+			productRefGroup = 3C21C8AD146E91D500CD18E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C21C8AB146E91D500CD18E0 /* BDCGraphicsAndAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C21C8AA146E91D500CD18E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C21C8BB146E91D500CD18E0 /* InfoPlist.strings in Resources */,
+				3C21C8C7146E91D500CD18E0 /* BDCViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C21C8A8146E91D500CD18E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C21C8BD146E91D500CD18E0 /* main.m in Sources */,
+				3C21C8C1146E91D500CD18E0 /* BDCAppDelegate.m in Sources */,
+				3C21C8C4146E91D500CD18E0 /* BDCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C21C8B9146E91D500CD18E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C21C8BA146E91D500CD18E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C21C8C5146E91D500CD18E0 /* BDCViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C21C8C6146E91D500CD18E0 /* en */,
+			);
+			name = BDCViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C21C8C8146E91D500CD18E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3C21C8C9146E91D500CD18E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C21C8CB146E91D500CD18E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDCGraphicsAndAnimations/BDCGraphicsAndAnimations-Prefix.pch";
+				INFOPLIST_FILE = "BDCGraphicsAndAnimations/BDCGraphicsAndAnimations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C21C8CC146E91D500CD18E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BDCGraphicsAndAnimations/BDCGraphicsAndAnimations-Prefix.pch";
+				INFOPLIST_FILE = "BDCGraphicsAndAnimations/BDCGraphicsAndAnimations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C21C8A6146E91D500CD18E0 /* Build configuration list for PBXProject "BDCGraphicsAndAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C21C8C8146E91D500CD18E0 /* Debug */,
+				3C21C8C9146E91D500CD18E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C21C8CA146E91D500CD18E0 /* Build configuration list for PBXNativeTarget "BDCGraphicsAndAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C21C8CB146E91D500CD18E0 /* Debug */,
+				3C21C8CC146E91D500CD18E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C21C8A3146E91D500CD18E0 /* Project object */;
+}
